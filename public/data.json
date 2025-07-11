@@ -1,0 +1,104 @@
+[
+  {
+    "id": 4,
+    "version": "3.1.1B",
+    "releaseName": "Refinement",
+    "status": "Complete Release",
+    "releaseTypes": [
+      {
+        "type": "Weekly",
+        "startDate": "05 Apr 2025",
+        "endDate": "10 Apr 2025",
+        "versionCode": "3.1.14.3.6",
+        "releaseTypeStatus": "Completed"
+      },
+      {
+        "type": "Hot-Fix",
+        "startDate": "08 Apr 2025",
+        "endDate": "08 Apr 2025",
+        "versionCode": "3.1.14.3.7",
+        "releaseTypeStatus": "Completed"    
+      },
+      {
+        "type": "On-Demand",
+        "startDate": "12 Apr 2025",
+        "endDate": "12 Apr 2025",
+        "versionCode": "3.1.14.3.8",
+        "releaseTypeStatus": "Skipped"     
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "version": "2.9.0A",
+    "releaseName": "NextPhase",
+    "status": "Complete Release",
+    "releaseTypes": [
+      {
+        "type": "Weekly",
+        "startDate": "01 June 2025",
+        "endDate": "07 June 2025",
+        "versionCode": "2.9.18.2.3",
+        "releaseTypeStatus": "Completed"
+      },
+      {
+        "type": "Hot-Fix",
+        "startDate": "14 June 2025",
+        "endDate": "15 June 2025",
+        "versionCode": "2.9.18.2.4",
+        "releaseTypeStatus": "Skipped"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "version": "2.8.8X",
+    "releaseName": "Despec",
+    "status": "Complete Release",
+    "releaseTypes": [
+      {
+        "type": "Weekly",
+        "startDate": "02 July 2025",
+        "endDate": "05 July 2025",
+        "versionCode": "2.8.18.2.1",
+        "releaseTypeStatus": "Skipped"
+      },
+      {
+        "type": "On-Demand",
+        "startDate": "25 July 2025",
+        "endDate": "26 July 2025",
+        "versionCode": "2.8.18.2.2",
+        "releaseTypeStatus": "Completed"
+      },
+      {
+        "type": "Patch",
+        "startDate": "11 July 2025",
+        "endDate": "11 July 2025",
+        "versionCode": "2.8.18.2.3",
+        "releaseTypeStatus": "Skipped"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "version": "3.0.0",
+    "releaseName": "BigLeap",
+    "status": "Complete Release",
+    "releaseTypes": [
+      {
+        "type": "Weekly",
+        "startDate": "08 Aug 2025",
+        "endDate": "12 Aug 2025",
+        "versionCode": "3.0.18.3.1",
+        "releaseTypeStatus": "Active"
+      },
+      {
+        "type": "On-Demand",
+        "startDate": "14 Aug 2025",
+        "endDate": "15 Aug 2025",
+        "versionCode": "3.0.18.3.2",
+        "releaseTypeStatus": "Future"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+.release-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.release-container.selected {
+    border: 2px solid #0d6efd;
+    border-radius: 8px;
+    /* box-shadow: 0 0 0.25rem #0d6efd; */
+}
+
+.release-panel {
+    border: 2px solid #0d6efd;
+    border-radius: 5px;
+}
+
+
+.clr-0d6efd {
+    color: #0d6efd
+}
+
+
+.release-list {
+    background-color: #D0F0FF;
+
+    background-image: url(/public/);
+}
+/* #0d6efd */

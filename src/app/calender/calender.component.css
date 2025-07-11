@@ -1,0 +1,68 @@
+:host ::ng-deep .fc {
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: #ffffff;
+}
+
+:host ::ng-deep .fc a {
+    text-decoration: none;
+    color: black;
+}
+
+:host ::ng-deep .fc a:hover {
+    text-decoration: none;
+    color: #0a58ca;
+}
+
+.calendar-wrapper {
+    border: 2px solid #0d6efd;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.legend-circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.legend-label {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white !important;
+
+}
+
+.legend-blue {
+    background-color: #0d6efd !important;
+}
+
+.legend-pink {
+    background-color: #f8d7e5 !important;
+}
+
+.legend-brown {
+    background-color: #8B4513 !important;
+}
+
+.fc .fc-event-title {
+    font-size: 10px; 
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* i[role="button"]:focus {
+    outline: 2px solid #0d6efd;
+    outline-offset: 2px;
+  } */
+  
+  
+  
+  

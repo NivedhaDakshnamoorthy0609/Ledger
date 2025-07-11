@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+body { 
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.ft-12 {
+    font-size: 12px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}

@@ -1,0 +1,32 @@
+@if (isBrowser) {
+    <div class="calendar-wrapper">
+      
+      <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+        
+        <div class="d-flex gap-2 align-items-center">
+          <div class="fs-18 fw-500">
+            {{ selectedRelease?.releaseName }} ({{ getMajorMinorVersion(selectedRelease?.version) }})
+          </div>
+          <div class="d-flex align-items-center gap-3">
+            <i class="bi bi-chevron-left" role="button" tabindex="0" (click)="goToPrevMonth()" style="cursor:pointer;"></i>
+            <span class="fw-medium">{{ currentMonth }}</span>
+            <i class="bi bi-chevron-right" role="button" tabindex="0" (click)="goToNextMonth()" style="cursor:pointer;"></i>
+          </div>
+          
+        </div>
+  
+        <div class="d-flex align-items-center flex-wrap gap-2 ft-12 fw-500">
+          <div><span class="legend-circle bg-secondary"></span> Completed</div>
+          <div><span class="legend-circle bg-success"></span> Active</div>
+          <div><span class="legend-circle bg-dark"></span> Future</div>
+          <div><span class="legend-circle bg-warning"></span> Skipped</div>
+          <div><span class="legend-label legend-blue">P</span> Patch</div>
+          <div><span class="legend-label legend-pink">OD</span> On-Demand</div>
+          <div><span class="legend-label legend-brown">HF</span> Hot-Fix</div>
+        </div>
+      </div>
+  
+      <full-calendar #calendarRef [options]="calendarOptions"></full-calendar>
+    </div>
+  }
+  

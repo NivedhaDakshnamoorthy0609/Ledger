@@ -1,0 +1,5 @@
+.form-control::placeholder {
+    font-size: 13px;  /* or whatever size you want */
+    /* You can also customize color, opacity, font-style here */
+  }
+  

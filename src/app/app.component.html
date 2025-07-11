@@ -1,0 +1,16 @@
+<div class="ledger-container bg-light d-flex flex-column h-auto">
+  <div class="mb-2">
+    <app-header></app-header>
+  </div>
+  <div class="row card-container">
+    <div class="col-md-4 mb-3 mb-md-0 p-2">
+      <app-version-release (releaseSelected)="onReleaseSelected($event)"></app-version-release>
+    </div>
+    <div class="col-md-8 p-2">
+      <app-calender [selectedRelease]="selectedRelease"></app-calender>
+    </div>
+  </div>
+  <div>
+    <app-footer></app-footer>
+  </div>
+</div>
